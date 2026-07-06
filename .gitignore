@@ -1,0 +1,23 @@
+# LaTeX build artifacts
+*.aux
+*.log
+*.out
+*.toc
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.synctex
+*.synctex.gz
+*.spl
+# Python
+__pycache__/
+*.py[cod]
+# fit outputs / checkpoints (regenerable)
+mos_chain_*.npz
+mos_post_bychain.pkl
+mos_numpyro_posterior.npz
+paper2_sim_results.jsonl
+# OS
+.DS_Store
+Thumbs.db
